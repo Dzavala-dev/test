@@ -207,6 +207,6 @@ fun derbyAnnouncer(block: (String) -> String){
     val ramdomPlayer = players.random()
     println("The next player is ... $ramdomPlayer")
     val announcerMessage = block(ramdomPlayer)
-    println(announcerMessage::)
+    println(announcerMessage)
 }
 
